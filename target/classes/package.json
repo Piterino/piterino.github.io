@@ -1,0 +1,27 @@
+{
+  "name": "quest_store",
+  "version": "1.0.0",
+  "description": "Project for CodeCool",
+  "main": "codecool/resources/static/index.html",
+  "scripts": {
+    "dev": "gulp server & gulp css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/magdalenagola/quest_store.git"
+  },
+  "author": "Szczepan Topolski, Magda Gola, Victoria Eremeeva, Piotr Łyskawa",
+  "license": "ISC",
+  "homepage": "https://github.com/magdalenagola/quest_store#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.7.4",
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^4.0.1",
+    "gulp-postcss": "^8.0.0"
+  }
+}
